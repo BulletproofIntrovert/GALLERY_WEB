@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Jade Rocks!</title>
+    <script>console.log("hi");
+</script>
+  </head>
+  <body>
+    <p class="greeting">Hello, World!</p>
+  </body>
+</html>

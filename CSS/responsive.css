@@ -1,0 +1,21 @@
+#pageWrapper {
+  clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+div.intro {
+  width: 47.5%;
+  margin: 0;
+  float: none;
+  clear: both;
+}
+
+@media screen and (max-width: 450px) {
+  .container {
+    position: fixed;
+    margin: 0;
+    width: 100%;
+    float: none;
+    margin-left: 20px;
+  }
+}
