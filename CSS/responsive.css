@@ -3,19 +3,36 @@
 	padding: 0px;
 	margin: 0px;
 }
-div.intro {
-  width: 47.5%;
-  margin: 0;
-  float: none;
-  clear: both;
-}
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 450px){
+  body {
+    padding-top: 80px;
+  }
   .container {
-    position: fixed;
     margin: 0;
     width: 100%;
-    float: none;
-    margin-left: 20px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
   }
+  .btn-menu {
+    display: block;
+  }
+  .btn-menu .icon {
+    padding-right: 20px;
+  }
+}
+@media screen and (max-width: 450px){
+  .container2 {
+  display: block;
+  width: 30%;
+  float: left;
+  padding-top: 20px;
+  }
+.images {
+  width: 25%;
+  display: block;
+  padding-top: 20px;
+  float: left;
+}
 }

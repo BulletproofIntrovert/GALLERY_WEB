@@ -1,0 +1,190 @@
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+#pageWrapper {
+  width: 1000px;
+  margin-left: 0;
+  margin-right: 40px;
+  background-color: #FFF;
+  flex-wrap: wrap;
+}
+/*ABOUT SECTION*/
+
+.container {
+  flex-wrap: wrap;
+
+  padding: 10px;
+  float: right;
+  max-width: 400px;
+  height: auto;
+  display: block;
+  margin-top: 0px;
+  position: relative;
+
+}
+
+.aboutMe {
+  display: block;
+  width: 100%;
+  float: right;
+  padding-left: 10px;
+  margin-top: 30px;
+  text-align: left;
+  font-family: 'Handlee', sans-serif;
+  line-height: 1.6em;
+}
+h3 {
+  display: block;
+  float: left;
+  padding: 10px;
+  text-align: left;
+  font-family: 'Amatic SC', solid, sans-serif;
+  margin-top: -50px;
+}
+
+.myPhoto {
+  float: right;
+  display: block;
+  padding: 10px;
+  margin-top: -20px;
+}
+a {
+  text-decoration: none;
+}
+.more {
+  margin-top: 200px;
+  font-family: 'Handlee', bold, sans-serif;
+  margin-right: 15px;
+}
+.arrow {
+  padding-left: 10px;
+}
+
+/*BUBBLES SECTION*/
+.container2 {
+  float: left;
+  height: auto;
+  flex-wrap: wrap;
+  display: block;
+}
+@keyframes pulse {
+  0%, 100% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: red;
+  }
+}
+.Doc {
+  background-color: #1a95d5;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin-left: 250px;
+  margin-top: 140px;
+  color: #fff;
+  text-align: center;
+  justify-content: space-around;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 300px;
+}
+.Doc {
+  animation-name: stretch;
+ animation-duration: 50.5s;
+ animation-timing-function: ease-out;
+ animation-delay: 0;
+ animation-direction: alternate;
+ animation-iteration-count: infinite;
+ animation-fill-mode: none;
+ animation-play-state: running;
+  }
+
+  @keyframes stretch {
+    0% {
+      transform: scale(.3);
+      background-color: #FFE4E1;
+    }
+    }
+
+.Edi {
+  background-color: #FFC0CB;
+  color: #fff;
+  font-family: 'Gloria Hallelujah', cursive;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  border-radius: 50%;
+  margin-left: 100px;
+  margin-top: 120px;
+  line-height: 150px;
+}
+.Edi {
+  animation: pulse 50s infinite;
+  animation-delay: 10s;
+}
+@keyframes pulse {
+  0%, 100% {
+    background-color: #FFC0CB;
+  }
+  50% {
+    background-color: skyblue;
+  }
+}
+
+.Eve {
+  background-color: #8FBC8F;
+  color: #fff;
+  font-family: 'Gloria Hallelujah', cursive;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  border-radius: 50%;
+  margin-left: 600px;
+  margin-top: -420px;
+  line-height: 100px;
+  animation: pulse 60s infinite;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  animation-delay: 10s;
+
+}
+
+
+.Jour {
+  background-color: Tomato;
+  color: #fff;
+  font-family: 'Gloria Hallelujah', cursive;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  border-radius: 50%;
+  margin-left: 400px;
+  margin-top: 300px;
+  line-height: 200px;
+  animation: pulse 20s infinite;
+}
+.bubble1 {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background-color: #b3f0ff;
+  margin-top: -650px;
+  margin-left: 100px;
+
+.bubble2 {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background-color: #1a95d5;
+  margin-top: 500px;
+  margin-left: 750px;
+}
