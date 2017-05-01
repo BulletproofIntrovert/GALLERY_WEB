@@ -11,22 +11,33 @@ html {
 #pageWrapper {
   width: 1000px;
   margin-left: 0;
-  margin-right: 40px;
-  background-color: #FFF;
+  margin-right: 50px;
   flex-wrap: wrap;
+}
+.btn-menu {
+  font-size: 20px;
+  font-family: 'Amatic SC', cursive;
+  display: block;
+  margin-top: 70px;
+  margin-left: 0;
+}
+.fa {
+  padding-left: 70px;
+  padding-right: 0;
+  color: black;
+  margin-right: 10px;
 }
 /*ABOUT SECTION*/
 
 .container {
   flex-wrap: wrap;
-
   padding: 10px;
   float: right;
   max-width: 400px;
   height: auto;
   display: block;
   margin-top: 0px;
-  position: relative;
+  margin-right: 100px;
 
 }
 
@@ -57,6 +68,7 @@ h3 {
 }
 a {
   text-decoration: none;
+  color: black;
 }
 .more {
   margin-top: 200px;
@@ -179,6 +191,7 @@ a {
   background-color: #b3f0ff;
   margin-top: -650px;
   margin-left: 100px;
+}
 
 .bubble2 {
   width: 30px;

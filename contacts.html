@@ -4,13 +4,15 @@
   <title>Contacts</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/responsive.css" media="screen and (max-width: 900px)">
+  <link rel="stylesheet" href="CSS/respContacts.css" media="screen and (max-width: 900px)">
+   <?php include "contact.php"; ?>
   <link rel="stylesheet" type="text/css" href="CSS/contacts.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Source+Code+Pro" rel="stylesheet">
 </head>
 <body>
   <div id="pageWrapper">
+    <span><a href="index.html" class="btn-menu"><i class="icon fa fa-home" aria-hidden="true"></i>Menu</a></span>
     <div class="formWrapper">
     <form action="contact.php" method="post">
       <fieldset>
@@ -19,7 +21,7 @@
   <input class="firstInput" name="name"/>
   <label for="email">Email: </label>
   <input name="email"/>
-  <label for="coments">Comments: </label>
+  <label for="coments">Message: </label>
   <textarea name="comments"></textarea>
 </fieldset>
 <fieldset>
@@ -33,17 +35,15 @@
     <h5>CONTACT INFORMATION:</h5>
     <ul>
     <li class="cont"><i class="icon fa fa-envelope-o" aria-hidden="true"></i>e.kapociute@gmail.com</li>
-    <a href="#"><li class="cont"><i class="icon fa fa-desktop" aria-hidden="true"></i>webSite</li></a>
+    <a href="#"><li class="cont"><i class="icon fa fa-desktop" aria-hidden="true"></i>www.ekdocumentary.tk</li></a>
     <li class="cont"><i class="icon mobil fa fa-mobile" aria-hidden="true"></i>07463960656</li>
     <li class="cont"><i class="icon map fa fa-map-marker" aria-hidden="true"></i>Malaga, Spain</li>
   </ul>
   <h6>Follow me:</h6>
-<a href="#"><i class="soc fa fa-instagram" aria-hidden="true"></i></a>
-<a href="#"><i class="soc fa fa-linkedin" aria-hidden="true"></i></a>
+<a href="https://www.behance.net/ekapociutefdc4"><i class="soc fa fa-behance" aria-hidden="true"></i></a>
+<a href="https://www.linkedin.com/in/egle-ka-b0a831138/"><i class="soc fa fa-linkedin" aria-hidden="true"></i></a>
   <p class="copyRight"><i class="icon fa fa-copyright" aria-hidden="true"></i>Egle Kapociute, 2017</p>
-
-
-  </div><!--end of container2-->
+    </div><!--end of container2-->
   </div><!--end of pageWrapper-->
 </body>
 

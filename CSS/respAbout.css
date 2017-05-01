@@ -1,0 +1,66 @@
+body {
+  float: none;
+  clear: both;
+}
+.container h3 {
+  display: none;
+}
+.container  {
+  float: none;
+  clear: both;
+  width: 50%;
+}
+ .myPhoto .aboutMe {
+  float: none;
+  width: 100%;
+  padding: 5px;
+  margin: 10px;
+}
+
+.bubbleContainer {
+  float: none;
+  display: block;
+  padding: 20px;
+  margin: 20px;
+}
+div.Jour, div.Doc {
+display: none;
+}
+
+@media screen and (max-width: 450px) {
+  .myPhoto {
+    margin-right: -100px;
+  }
+  .aboutMe {
+    margin-right: -100px;
+  }
+  h3 {
+    display: none;
+  }
+
+.container {
+  width: 100%;
+  margin-left: 20px;;
+  margin-right: 10px;
+  margin-top: 300px;
+  padding-top: 100px;
+}
+.btn-menu {
+  margin-bottom: 100px;
+  background-color: #cceeff;
+  padding: 20px;
+}
+
+.myPhoto {
+  margin-top: 60px;
+}
+.aboutMe {
+  margin-left: 10px;
+  padding-left: 20px;
+  margin-bottom: 50px;
+}
+.bubbleContainer {
+  display: none;
+}
+
+}

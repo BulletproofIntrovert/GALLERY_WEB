@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+#pageWrapper {
+  margin-left: auto;
+  margin-right: auto;
+}
+.container2 {
+  clear: both;
+  float: none;
+  padding-right: 100px;
+  width: 50%
+  margin-left: 0;
+  margin-right: 10px;
+}
+h5, h6 {
+  float: none;
+  clear: both;
+  display: block;
+
+}
+ul, li {
+  float: none;
+  clear: both;
+  display: block;
+}
+
+@media screen and (max-width: 450px) {
+  .container2 {
+    clear: both;
+    display: block;
+    float: none;
+    padding: 10px;
+    width: 100%;
+    padding-top: 500px;
+    padding-right: 500px;
+  }
+  h5, h6 {
+    float: none;
+    clear: both;
+    display: block;
+
+  }
+  ul, li {
+    float: none;
+    clear: both;
+    display: block;
+  }
+}

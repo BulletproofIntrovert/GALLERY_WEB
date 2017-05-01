@@ -1,6 +1,8 @@
 /* Preload images */
 body:after {
-  content: url(../images/lightboxIMAGES/close.png) url(../images/lightboxIMAGES/loading.gif) url(../images/lightboxIMAGES/prev.png) url(../images/lightboxIMAGES/next.png);
+  content: url(../IMAGES/close.png) url(../IMAGES/loading.gif) 
+  url(../IMAGES/prev.png) 
+    url(../IMAGES/next.png);
   display: none;
 }
 
@@ -78,7 +80,7 @@ body.lb-disable-scrolling {
   width: 32px;
   height: 32px;
   margin: 0 auto;
-  background: url(../images/lightboxIMAGES/loading.gif) no-repeat;
+  background: url(../IMAGES/loading.gif) no-repeat;
 }
 
 .lb-nav {
@@ -109,7 +111,7 @@ body.lb-disable-scrolling {
   width: 34%;
   left: 0;
   float: left;
-  background: url(../images/lightboxIMAGES/prev.png) left 48% no-repeat;
+  background: url(../IMAGES/prev.png) left 48% no-repeat;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
   -webkit-transition: opacity 0.6s;
@@ -127,7 +129,7 @@ body.lb-disable-scrolling {
   width: 64%;
   right: 0;
   float: right;
-  background: url(../images/lightboxIMAGES/next.png) right 48% no-repeat;
+  background: url(../IMAGES/next.png) right 48% no-repeat;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
   -webkit-transition: opacity 0.6s;
@@ -195,7 +197,7 @@ body.lb-disable-scrolling {
   float: right;
   width: 30px;
   height: 30px;
-  background: url(../images/lightboxIMAGES/close.png) top right no-repeat;
+  background: url(../IMAGES/close.png) top right no-repeat;
   text-align: right;
   outline: none;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);

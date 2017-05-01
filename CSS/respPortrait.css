@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+#pageWrapper {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.doc .nat {
+  float: right;
+  display: inline;
+}
+.container .photo {
+  clear: both;
+  min-width: 50%;
+  float: none;
+}
+
+
+@media screen and (max-width: 450px) {
+.btn-menu {
+  background-color: #cceeff;
+}
+
+.menuOne {
+    clear: both;
+    float: none;
+    display: block;
+  }
+.doc .nat {
+  margin-left: 0;
+  margin-top: 0;
+  display: block;
+}
+
+hr {
+  display: none;
+}
+
+  .container .photo {
+    clear: both;
+    float: none;
+    min-width: 180%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    margin-top: 0px;
+
+  }
+  .title {
+    padding-right: auto;
+    padding-left: 0;
+    margin-top: 50px;;
+    margin-bottom: 0;
+    float: none;
+    clear: both;
+    display: block;
+    flex-wrap: nowrap;
+
+  }
+
+}

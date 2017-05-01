@@ -18,6 +18,48 @@ body {
   background-color: #FFF;
   flex-wrap: wrap;
 }
+#nav {
+height: 100px;
+flex-wrap: wrap;
+min-width: 350px;
+}
+hr {
+  width: 1000px;
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+li {
+  list-style: none;
+}
+.menuOne {
+  margin-left: 450px;
+  margin-top: -40px;
+  margin-bottom: 20px;
+}
+.doc, .portraits, .nat {
+  font-size: 20px;
+  font-family: 'Amatic SC', cursive;
+  padding: 5px;
+  margin-left: 50px;
+  display: inline;
+}
+a {
+  text-decoration: none;
+}
+.btn-menu {
+  font-size: 20px;
+  font-family: 'Amatic SC', cursive;
+  display: block;
+  padding: 20px;
+  margin-top: 80px;
+}
+.fa {
+  padding-left: 10px;
+  color: black;
+}
+
 h2 {
   margin-top: 100px;
   margin-left: 200px;
@@ -33,7 +75,17 @@ h2 {
   flex-wrap: wrap;
   box-sizing: border-box;
 }
-img {
+.gallery-box .img:hover {
+  opacity: 1;
+  transform: scale(1);
+  box-shadow: 0 0 7px rgba(0, 0, 0, .5);
+}
+.photo:hover img {
+  opacity: .6;
+  transform: scale(.92);
+}
+
+.photo img {
   width: 20%;
   padding: 2px;
   margin-left: 10px;
